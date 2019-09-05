@@ -1,0 +1,18 @@
+{
+  "name": "stub-plugin-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rollup -c && mocha --require source-map-support/register dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "rollup": "^1.20.3",
+    "rollup-plugin-stub": "^1.2.0",
+    "source-map-support": "^0.5.13"
+  }
+}
