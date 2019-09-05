@@ -1,4 +1,4 @@
-First, `npm ci`. Then,
+First, `nvm install && npm ci`. Then,
 
 ## 1) Observe source map support
 
